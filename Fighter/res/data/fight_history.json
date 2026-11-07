@@ -1,0 +1,25 @@
+[ {
+  "playerChar" : 1,
+  "enemyChar" : 0,
+  "roundCount" : 24,
+  "winner" : "ENEMY",
+  "fightNum" : 1
+}, {
+  "playerChar" : 2,
+  "enemyChar" : 0,
+  "roundCount" : 19,
+  "winner" : "ENEMY",
+  "fightNum" : 2
+}, {
+  "playerChar" : 0,
+  "enemyChar" : 1,
+  "roundCount" : 21,
+  "winner" : "ENEMY",
+  "fightNum" : 3
+}, {
+  "playerChar" : 1,
+  "enemyChar" : 0,
+  "roundCount" : 19,
+  "winner" : "ENEMY",
+  "fightNum" : 4
+} ]

@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Rex",
+    "description": "A fighter",
+    "spritePath": "sprites/char1.png",
+    "combos": [
+      {
+        "name": "Combo 1",
+        "sequence": ["BLOCK", "SHOOT", "SHOOT"],
+        "description": "Double tap + 10 damage",
+        "effect": "10",
+        "isHealing": "false"
+      },
+      {
+        "name": "Combo 2",
+        "sequence": ["SHOOT", "BLOCK", "SLASH"],
+        "description": "Lifesteal heal 10",
+        "effect": "10",
+        "isHealing": "true"
+      },
+      {
+        "name": "Combo 3",
+        "sequence": ["SLASH", "BLOCK", "SHOOT"],
+        "description": "Quick strike + 15 damage",
+        "effect": "15",
+        "isHealing": "false"
+      }
+    ]
+  },
+  {
+    "name": "Shade",
+    "description": "A sleeper",
+    "spritePath": "/sprites/char2.png",
+    "combos": [
+      {
+        "name": "Combo 1",
+        "sequence": ["BLOCK", "SHOOT", "SHOOT"],
+        "description": "Double tap + 10 damage",
+        "effect": "10",
+        "isHealing": "false"
+      },
+      {
+        "name": "Combo 2",
+        "sequence": ["SLASH", "SLASH", "BLOCK"],
+        "description": "Heavy strike + 20 damage",
+        "effect": "20",
+        "isHealing": "false"
+      },
+      {
+        "name": "Combo 3",
+        "sequence": ["SHOOT", "BLOCK", "SHOOT"],
+        "description": "Recovery + 15 health",
+        "effect": "15",
+        "isHealing": "true"
+      }
+    ]
+  },
+  {
+    "name": "Ragnar",
+    "description": "A walker",
+    "spritePath": "/sprites/char3.png",
+    "combos": [
+      {
+        "name": "Combo 1",
+        "sequence": ["SLASH", "SLASH", "BLOCK"],
+        "description": "Cut him up + 20 damage",
+        "effect": "20",
+        "isHealing": "false"
+      },
+      {
+        "name": "Combo 2",
+        "sequence": ["BLOCK", "BLOCK", "SHOOT"],
+        "description": "Defensive recovery + 10 health",
+        "effect": "10",
+        "isHealing": "true"
+      },
+      {
+        "name": "Combo 3",
+        "sequence": ["SHOOT", "SLASH", "SLASH"],
+        "description": "Triple attack + 25 damage",
+        "effect": "25",
+        "isHealing": "false"
+      }
+    ]
+  }
+]

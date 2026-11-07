@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/Fighter">
+      <sourceFolder url="file://$MODULE_DIR$/Fighter/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/Fighter/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Jackson">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Fighter/lib/jackson-annotations-2.20.jar!/" />
+          <root url="jar://$MODULE_DIR$/Fighter/lib/jackson-core-2.20.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/Fighter/lib/jackson-databind-2.20.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="jackson-annotations-2.20" level="project" />
+    <orderEntry type="library" name="jackson-core-2.20.1" level="project" />
+  </component>
+</module>
